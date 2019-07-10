@@ -1,0 +1,67 @@
+a,
+a:hover,
+a:active,
+{
+    text-decoration: none;
+}
+.sombra {
+    background-color: #000;
+    opacity: 0.7;
+}
+
+#menu{
+    z-index: 9999;
+}
+
+.projetos-item a{
+    display: block;
+    background-size: cover!important;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+.projetos-item h2{
+    line-height: 200px!important;
+}
+
+.projetos-quartos a{
+    background-image:url(../images/projetos-quartos.jpg);
+}
+.projetos-salas a{
+    background-image: url(../images/projetos-salas.jpg);
+}
+
+.projetos-banheiros a{
+    background-image: url(../images/projetos-banheiros.jpg);
+}
+
+.projetos-corporativos a{
+    background-image: url(../images/projetos-corporativos.jpg);
+}
+
+.projetos-cozinhas a{
+    background-image: url(../images/projetos-cozinhas.jpg);
+}
+
+.projetos-closets a{
+    background-image: url(../images/banner1.jpg);
+}
+
+.bg-footer{
+    background-color: #232323;
+}
+
+.bg-title-pagina{
+    background: url(../images/bg-topo-pagina.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.bg-title-pagina .bg-dark{
+    opacity: 0.7;
+}
+
+.bg-title-pagina h1{
+    line-height: 300px;
+    opacity: 1!important;
+}
