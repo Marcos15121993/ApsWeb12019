@@ -37,6 +37,7 @@
             texto +='<li class="nav-item w-25"><a class="nav-link text-white font-weight-bold" href="sobre.html">Sobre</a></li>';
             texto +='<li class="nav-item w-25"><a class="nav-link text-white font-weight-bold" href="projetos.html">Projetos</a></li>';
             texto +='<li class="nav-item w-25"><a class="nav-link text-white font-weight-bold" href="contato.html">Contato</a></li>'
+			texto +='<li class="nav-item w-25"><a class="nav-link text-white font-weight-bold" href="login.html">Administador</a></li>'
             texto +='</ul></div></nav>';
         
         document.getElementById('menu').innerHTML = texto;
